@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ddd;
+}
+.mainHeding {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  width: 80%;
+  margin: auto;
+}
+
+.header img {
+  max-width: 200px;
+}
+
+.Image {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  max-width: 100px;
+}
+.text {
+  width: 80%;
+  margin: auto;
+}
+.text p {
+  text-align: justify;
+  font-size: 20px;
+  text-shadow: #ddd;
+}
+.button {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bt {
+  background-color: blue;
+  color: #ddd;
+
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+.footer img {
+  max-width: 30px;
+  margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .Image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 200px;
+  }
+  .text {
+    width: 100%;
+  }
+  .text p {
+    text-align: center;
+    font-size: 15px;
+    text-shadow: #ddd;
+  }
+}
